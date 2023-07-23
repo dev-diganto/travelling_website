@@ -1062,6 +1062,7 @@ body.nav-active{
   justify-content: center;
   align-items: center;
   margin-bottom: 150px;
+  margin-top: 130px;
 }
 
 .error-container {
@@ -1172,7 +1173,15 @@ body.nav-active{
     gap: 30px;
   }
 
+  
+  /* error */
 
+
+  /* ERROR */
+
+  #error{
+    margin-top: 100px;
+  }
 
 }
 
@@ -1388,6 +1397,12 @@ body.nav-active{
      }
 
 
+    /* error */
+
+    #error{
+      margin-top: 100px;
+    } 
+
 
 }
 
@@ -1577,6 +1592,13 @@ body.nav-active{
         grid-template-columns: 1fr 0.5fr 0.6fr 0.6fr 1fr;
       } 
 
+      
+      /* ERROR */
+
+      #error{
+        margin-top: 100px;
+      }
+
 
 }
 
@@ -1721,6 +1743,13 @@ body.nav-active{
   }
 
 
+  /* ERROR */
+
+  #error{
+    margin-top: 100px;
+  }
+
+
 
 
 
@@ -1750,82 +1779,88 @@ body.nav-active{
 
   } 
 
-/* 
-RESED STYLE
-*/
+    /* 
+    RESED STYLE
+    */
 
-.container{
- max-width: 1350px;
-}
-
-
-/* 
-HEADER 
-*/
-
-.navbar-list{
-  gap: 70px;
-}
-
-.header .logo img{
-  width: 100%;
-}
+    .container{
+    max-width: 1350px;
+    }
 
 
-/* 
-SERVICE
-*/
+    /* 
+    HEADER 
+    */
 
-.service .section-title{
-  margin-inline-end: 20px;
-}
+    .navbar-list{
+      gap: 70px;
+    }
 
-
-.service .title-wrapper{
-  grid-column: auto;
-  padding-inline-end: 0;
-}
-
-.service .container{
-  grid-template-columns: 1fr repeat(3,0.9fr);
-  gap: 50px;
-}
-
-.service-card:nth-child(3){
-  margin-block-start:80px;
-}
+    .header .logo img{
+      width: 100%;
+    }
 
 
-/* 
-DESTINATION
-*/
+    /* 
+    SERVICE
+    */
+
+    .service .section-title{
+      margin-inline-end: 20px;
+    }
 
 
-.desti-list{
-  gap: 50px;
-}
+    .service .title-wrapper{
+      grid-column: auto;
+      padding-inline-end: 0;
+    }
+
+    .service .container{
+      grid-template-columns: 1fr repeat(3,0.9fr);
+      gap: 50px;
+    }
+
+    .service-card:nth-child(3){
+      margin-block-start:80px;
+    }
 
 
-/* FOOTER */
-
-.footer-top{
-  padding-block-end: 80px;
-}
-
-.footer-brand .footer-text{
-  margin-block: 35px 30px;
-}
-
-.footer-list-title{
-  margin-block-end: 25px;
-}
+    /* 
+    DESTINATION
+    */
 
 
-.footer-bottom-list{
-  gap: 40px;
-}
+    .desti-list{
+      gap: 50px;
+    }
 
 
+    /* FOOTER */
+
+    .footer-top{
+      padding-block-end: 80px;
+    }
+
+    .footer-brand .footer-text{
+      margin-block: 35px 30px;
+    }
+
+    .footer-list-title{
+      margin-block-end: 25px;
+    }
+
+
+    .footer-bottom-list{
+      gap: 40px;
+    }
+
+
+
+    /* ERROR */
+
+    #error{
+      margin-top: 100px;
+    }
 
 
 
